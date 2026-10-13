@@ -14,5 +14,6 @@ serde_qs = "0.13"
 reqwest = { version = "0.12", features = ["json"] }
 base64 = "0.22"
 rust_decimal = "1.36"
-solana-sdk = { workspace = true } 
-solana-account-decoder = { workspace = true }
+solana-pubkey = { workspace = true }
+solana-instruction = { workspace = true }
+solana-account-decoder-client-types = { workspace = true }

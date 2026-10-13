@@ -9,7 +9,10 @@ resolver = "2"
 edition = "2021"
 
 [workspace.dependencies]
-solana-sdk = "3.0.0"
-solana-client = "=3.1.11"
-solana-account-decoder = "=3.1.11"
+solana-pubkey = "4"
+solana-instruction = "3"
+solana-transaction = "4"
+solana-signer = "3"
+solana-client = "=4.2.2"
+solana-account-decoder-client-types = "=4.2.2"
 anyhow = "1.0.102"

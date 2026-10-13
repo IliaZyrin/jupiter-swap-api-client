@@ -7,8 +7,9 @@ use jupiter_swap_api_client::{
     JupiterSwapApiClient,
 };
 use solana_client::nonblocking::rpc_client::RpcClient;
-use solana_sdk::{pubkey, transaction::VersionedTransaction};
-use solana_sdk::{pubkey::Pubkey, signature::NullSigner};
+use solana_pubkey::{Pubkey, pubkey};
+use solana_signer::null_signer::NullSigner;
+use solana_transaction::versioned::VersionedTransaction;
 
 // --- CONSTANTS: MINT ADDRESSES AND WALLET ---
 
